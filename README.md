@@ -89,7 +89,9 @@ Total: 74.68
 
 ### Problem 3 :
 
-We take two balls at random from an urn starting with 10 black balls and 20 white
-balls. The second ball removed is recovered to match the first ball, and we repeat
-the experiment indefinitely. What is the probability that all the balls in the urn
-eventually turn black?
+We take two balls, one at a time without replacement, at random from an urn starting with 10 black balls and 20 white
+balls. 
+
+The second ball removed is dropped and we replace it with one of the same color as the first ball. So if we had a pair of <ball 1: black, ball 2: white>, we would place 2 black balls back into the urn. If we had a pair of <ball 1: white, ball 2: black>, we would place 2 white balls back into the urn.
+
+We repeat the experiment indefinitely. What is the probability that all the balls in the urn eventually turn black?
