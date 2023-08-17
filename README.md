@@ -60,7 +60,6 @@ Output 7: 3
 Output 8: 9
 Output 9: 9
 Output 10: 7
-==========
 
 ### Problem 3 :
 
