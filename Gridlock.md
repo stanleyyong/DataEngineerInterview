@@ -1,17 +1,16 @@
-Tx	Sender	Receiver	Amount
-Tx1	A	C	25
-Tx2	E	F	20
-Tx3	C	D	10
-Tx4	B	D	5
-Tx5	E	A	15
-Tx6	B	F	15
-Tx7	F	C	60
-Tx8	F	D	15
-Tx9	B	D	10
-Tx10	D	C	20
-Tx11	C	E	5
-Tx12	A	E	5
-Total Transacted Amount			205
+We interpret the table below as a row-wise definition of payments where the sender is paying the stated amount to the receiver. 
+
+For example, if we examine the first row which is labeled Tx1, A pays 25 to C. 
+
+One could represent the system as a set of states with transitions between them. This state diagram is a sample:
+
+![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/b250fd69-61e0-4ac2-a1ee-0bc2c8315528)
+
+
+![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/d2bb1df0-8ff9-43fb-8ba1-5612b30d5c92)
+
+
+
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/9950b731-b238-4b7a-b674-bdb390a97d8b)
 
 
