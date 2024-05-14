@@ -4,7 +4,7 @@ Note to candidate: This is an open-book task, you can use any resources as long 
 
 Movmint is in the business of helping Central Banks build central bank digital currency systems. One of the main uses for such systems is to help people to make and receive payments electronically instead of using cash! In our system, we keep a record of the amounts of central bank digital currency each person is holding, and a record of the transactions that are done between them. The transactions change the amounts of money people end up with.
 
-We interpret the table below as a row-wise definition of payments where the sender is paying the stated amount to the receiver. 
+We interpret the table below as a row-wise definition of payment requests where the sender is paying the stated amount to the receiver. 
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/4c7b526b-34c6-46dd-8e73-5ea299bae25c)
 
@@ -14,7 +14,7 @@ One could represent the system as a set of states with transitions between them.
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/b250fd69-61e0-4ac2-a1ee-0bc2c8315528)
 
-In reality, we can have situations where state transitions are impossible under a given set of constraints. For example, if we impose a constraint that everyone must be solvent at all times, that can be stated as the statement: "All balances are non-negative". Now if A and C begin with only 20 instead of 30, Tx1 is no longer possible. 
+In reality, we can have situations where state transitions are impossible under a given set of constraints. For example, if we impose a constraint that everyone must be solvent at all times, that can be stated as the statement: "All balances are non-negative". Now if A and C begin with only 20 instead of 30, Tx1 is no longer possible. In such cases we have the choice to reject the transaction immediately, or if we have the option of taking some time, we might queue the transaction until the sender has sufficient funds to pay out without going negative.
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/9e8628e0-501f-41c5-86d6-4b8ea36acc98)
 
