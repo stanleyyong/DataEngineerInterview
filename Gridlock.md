@@ -2,7 +2,7 @@
 
 Note to candidate: This is an open-book task, you can use any resources as long as you acknowledge them to the interviewer. Try your best to complete this and explain your reasoning!
 
-Movmint is in the business of helping Central Banks build central bank digital currency systems. One of the main uses for such systems is to help people to make and receive payments electronically instead of using cash! In our system, we keep a record of the amounts of central bank digital currency each person is holding, and a record of the transactions that are done between them. The transactions change the amounts of money people end up having.
+Movmint is in the business of helping Central Banks build central bank digital currency systems. One of the main uses for such systems is to help people to make and receive payments electronically instead of using cash! In our system, we keep a record of the amounts of central bank digital currency each person is holding, and a record of the transactions that are done between them. The transactions change the amounts of money people end up with.
 
 We interpret the table below as a row-wise definition of payments where the sender is paying the stated amount to the receiver. 
 
