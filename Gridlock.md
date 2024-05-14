@@ -23,7 +23,7 @@ If we do not have a non-negative constraint, which actors will end up in bankrup
 If we impose a non-negative constraint, and each transaction has to be executed individually, which transactions can be executed?
 
 ### Question 3
-Netting is the concept of allowing multiple transactions to happen at once such that their effects can cancel out. 
+Netting is the concept of allowing multiple transactions to happen at once such that their effects can cancel out. Netting works as long as: incoming money + current balance > outgoing money
 
 Consider the following netting problem:
 
