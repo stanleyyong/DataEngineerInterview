@@ -59,4 +59,7 @@ Back to the problem with Alice, Bob, Charles and Demi:
 I'd listed one way to net off the transactions. Can you draw a state diagram for the other netting set? What if we tried to net both sets at the same time? Is that going to be successful in avoiding bankruptcy for everyone?
 
 ### Question 5
-Can you fix this situation?
+Can you fix this situation? What is required for the fix to work?
+
+### Question 6
+What if the actors are not able to coordinate and must act in a decentralized way? Can you still solve this conundrum? What are the issues involved?
