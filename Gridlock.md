@@ -10,11 +10,7 @@ In reality, we can have situations where state transitions are impossible under 
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/9e8628e0-501f-41c5-86d6-4b8ea36acc98)
 
-
-
-![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/d2bb1df0-8ff9-43fb-8ba1-5612b30d5c92)
-
-
+If
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/9950b731-b238-4b7a-b674-bdb390a97d8b)
 
