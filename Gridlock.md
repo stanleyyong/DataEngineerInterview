@@ -14,7 +14,16 @@ If one receives the following set of transactions to execute, we must know the b
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/9950b731-b238-4b7a-b674-bdb390a97d8b)
 
+For the following questions, assume that everyone starts with a balance of 20.
 
+### Question 1
+If we do not have a non-negative constraint, which actors will end up in bankruptcy and by how much?
+
+### Question 2
+If we impose a non-negative constraint, and each transaction has to be executed individually, which transactions can be executed?
+
+### Question 3
+If we allow multiple transactions to execute at once so that their effects can be netted, can you find the maximum amount of transactions that can be settled?
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/880745e7-515a-4df2-9e80-7a6fa187130e)
 
