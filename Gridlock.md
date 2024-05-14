@@ -10,9 +10,10 @@ In reality, we can have situations where state transitions are impossible under 
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/9e8628e0-501f-41c5-86d6-4b8ea36acc98)
 
-If
+If one receives the following set of transactions to execute, we must know the balances that each actor has at the start to correctly choose the state of the world after each transaction is attempted.
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/9950b731-b238-4b7a-b674-bdb390a97d8b)
+
 
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/880745e7-515a-4df2-9e80-7a6fa187130e)
