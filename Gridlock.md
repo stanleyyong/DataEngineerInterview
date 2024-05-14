@@ -43,6 +43,7 @@ One way to net off simultaneously is to do this:
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/d37e75a7-4603-44fa-af96-1e461ab0a201)
 
 We revisit the problem set of 12 transactions:
+
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/e3e5743e-4314-4508-97b2-7d27e1eb8925)
 
 If we allow multiple transactions to execute at once so that their effects can be netted, can you find the maximum amount of transactions that can be settled?
