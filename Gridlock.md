@@ -6,6 +6,11 @@ One could represent the system as a set of states with transitions between them.
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/b250fd69-61e0-4ac2-a1ee-0bc2c8315528)
 
+In reality, we can have situations where state transitions are impossible under a given set of constraints. For example, if we impose a constraint that everyone must be solvent at all times, that can be stated as the statement: "All balances are non-negative". Now if A and C begin with only 20 instead of 30, Tx1 is no longer possible. 
+
+![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/9e8628e0-501f-41c5-86d6-4b8ea36acc98)
+
+
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/d2bb1df0-8ff9-43fb-8ba1-5612b30d5c92)
 
