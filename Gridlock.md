@@ -23,7 +23,7 @@ If we do not have a non-negative constraint, which actors will end up in bankrup
 If we impose a non-negative constraint, and each transaction has to be executed individually, which transactions can be executed?
 
 ### Question 3
-If we allow multiple transactions to execute at once so that their effects can be netted, can you find the maximum amount of transactions that can be settled?
+Netting is the concept of allowing multiple transactions to happen at once such that their effects can cancel out. 
 
 Consider the following netting problem:
 
@@ -31,7 +31,10 @@ Consider the following netting problem:
  
 In this example, we have two examples of payment cycles. The first is Alice, Bob, Charles and the second is Bob, Charles, Demi. Of interest is that both of these payment cycles represent scenarios, sometimes referred to as gridlocks, in which no one participant is able to unilaterally make a payment, yet it is possible for either payment cycle to be resolved as a set.
 
+One way to net off simultaneously is to do this:
+![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/d37e75a7-4603-44fa-af96-1e461ab0a201)
 
-![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/880745e7-515a-4df2-9e80-7a6fa187130e)
+If we allow multiple transactions to execute at once so that their effects can be netted, can you find the maximum amount of transactions that can be settled?
+
 
 
