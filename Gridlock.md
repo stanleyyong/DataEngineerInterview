@@ -35,6 +35,8 @@ One way to net off simultaneously is to do this:
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/d37e75a7-4603-44fa-af96-1e461ab0a201)
 
 If we allow multiple transactions to execute at once so that their effects can be netted, can you find the maximum amount of transactions that can be settled?
+(Hint: what if we deactivate some payments in the queue? Can we go through the set of actors in deficit at the end and remove the transactions that end up taking them to bankruptcy? Then repeat until everyone is solvent?)
 
+Give an explicit solution!
 
 
