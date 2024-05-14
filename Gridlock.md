@@ -53,6 +53,8 @@ For example, you might do this:
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/f4af9b36-a56a-4550-827e-3da07f48b794)
 
+This would mean that the transaction Tx9 is skipped, or the amount is set to 0 (both equivalent in effect on the state).
+
 Give an explicit solution! Tell me:
 
 1. How many transactions are deactivated
