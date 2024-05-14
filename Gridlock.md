@@ -1,3 +1,18 @@
+Tx	Sender	Receiver	Amount
+Tx1	A	C	25
+Tx2	E	F	20
+Tx3	C	D	10
+Tx4	B	D	5
+Tx5	E	A	15
+Tx6	B	F	15
+Tx7	F	C	60
+Tx8	F	D	15
+Tx9	B	D	10
+Tx10	D	C	20
+Tx11	C	E	5
+Tx12	A	E	5
+Total Transacted Amount			205
+![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/9950b731-b238-4b7a-b674-bdb390a97d8b)
 
 
 ![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/880745e7-515a-4df2-9e80-7a6fa187130e)
