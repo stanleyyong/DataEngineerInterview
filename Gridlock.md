@@ -1,5 +1,7 @@
 We interpret the table below as a row-wise definition of payments where the sender is paying the stated amount to the receiver. 
 
+![image](https://github.com/stanleyyong/DataEngineerInterview/assets/18695878/4c7b526b-34c6-46dd-8e73-5ea299bae25c)
+
 For example, if we examine the first row which is labeled Tx1, A pays 25 to C. 
 
 One could represent the system as a set of states with transitions between them. This state diagram is a sample:
